@@ -242,7 +242,7 @@ gene.names = gene.names[indices.to.keep]
 
 gene.set.name = "KIT RECEPTOR SIGNALING WIKI"
 
-data1 <- read.csv("KIT signaling Wiki.csv", header=TRUE, stringsAsFactors=FALSE)
+data1 <- read.csv("KIT signaling Wikipathways.csv", header=TRUE, stringsAsFactors=FALSE)
 
 data1
 
@@ -413,7 +413,7 @@ gene.names = gene.names[indices.to.keep]
 
 gene.set.name = "KIT RECEPTOR SIGNALING WIKI"
 
-data1 <- read.csv("KIT signaling Wiki.csv", header=TRUE, stringsAsFactors=FALSE)
+data1 <- read.csv("KIT signaling Wikipathways.csv", header=TRUE, stringsAsFactors=FALSE)
 
 data1
 
