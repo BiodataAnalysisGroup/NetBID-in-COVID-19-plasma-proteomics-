@@ -26,10 +26,10 @@ For the biological informed neural network (b-iNN) is followed the <a href="http
 At this step it is created the REACTOM_pathway_mask.csv and GO_pathway_mask.csv documents for Reactom and GO pathway libraries, respectively. These documents are used for the two different b-iNN that are created for this study.
 
 2. Explainable AI feature
-Next, the Train.py file of <a href="https://github.com/DataX-JieHao/PASNet#interpretable-neural-network-on-the-biological-pathway-level">PasNet</a> modified as follows:
+Next, the Train.py file of <a href="https://github.com/DataX-JieHao/PASNet#interpretable-neural-network-on-the-biological-pathway-level">PasNet</a> modified (the modified python script is in Neural network folder)
 
 3. Receiver Operating Characteristic plot
-The EvalFunc.py file of <a href="https://github.com/DataX-JieHao/PASNet#interpretable-neural-network-on-the-biological-pathway-level">PasNet</a> modified as follows:
+The EvalFunc.py file of <a href="https://github.com/DataX-JieHao/PASNet#interpretable-neural-network-on-the-biological-pathway-level">PasNet</a> modified (the modified python script is in Neural network folder)
 
 4. Train and Test data
 For the training and test of the model has used the MGH dataset. The MGH dataset is normalized with mean = 0 and standard deviation = 1. The produced datasets are the following: 
